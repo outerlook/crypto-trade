@@ -1,0 +1,1 @@
+export const ORDERBOOK_API_URL = process.env.NEXT_PUBLIC_ORDERBOOK_API_URL;

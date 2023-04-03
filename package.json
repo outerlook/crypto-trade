@@ -1,0 +1,59 @@
+{
+  "name": "crypto-trade",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "16.18.23",
+    "@types/react": "18.0.32",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
+    "dotenv": "16.0.3",
+    "esbuild": "0.17.14",
+    "eslint": "^8.24.0",
+    "eslint-config-next": "13.2.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-jest": "^27.0.4",
+    "autoprefixer": "10.4.14",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-prettier": "^4.2.1",
+    "happy-dom": "8.9.0",
+    "prettier": "^2.7.1",
+    "tailwindcss": "3.2.7",
+    "ts-toolbelt": "9.6.0",
+    "tsx": "3.12.6",
+    "typescript": "5.0.3",
+    "vite": "4.2.1",
+    "vitest": "0.29.7"
+  },
+  "dependencies": {
+    "dayjs": "2.0.0-alpha.4",
+    "fp-ts": "2.13.1",
+    "fp-ts-rxjs": "0.6.15",
+    "fp-ts-std": "0.15.1",
+    "io-ts": "2.2.20",
+    "io-ts-reporters": "2.0.1",
+    "constate": "3.3.2",
+    "io-ts-types": "0.5.19",
+    "mappersmith": "2.42.0-beta.1",
+    "monocle-ts": "2.3.13",
+    "newtype-ts": "0.3.5",
+    "victory": "36.6.8",
+    "next": "13.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "rxjs": "7.8.0"
+  },
+  "keywords": [],
+  "author": "Raffael Ruben Campos <https://github.com/outerlook>",
+  "license": "ISC"
+}
