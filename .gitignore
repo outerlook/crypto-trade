@@ -67,7 +67,7 @@ typings/
 
 # dotenv environment variables file
 .env
-.env
+.env*
 
 # stryker temp files
 .stryker-tmp
