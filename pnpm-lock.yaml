@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@types/lodash': 4.14.192
   '@types/node': 16.18.23
   '@types/react': 18.0.32
   '@typescript-eslint/eslint-plugin': ^5.38.1
@@ -19,10 +20,12 @@ specifiers:
   fp-ts: 2.13.1
   fp-ts-rxjs: 0.6.15
   fp-ts-std: 0.15.1
+  fuse.js: 6.6.2
   happy-dom: 8.9.0
   io-ts: 2.2.20
   io-ts-reporters: 2.0.1
   io-ts-types: 0.5.19
+  lodash: 4.17.21
   mappersmith: 2.42.0-beta.1
   monocle-ts: 2.3.13
   newtype-ts: 0.3.5
@@ -45,9 +48,11 @@ dependencies:
   fp-ts: 2.13.1
   fp-ts-rxjs: 0.6.15_fp-ts@2.13.1+rxjs@7.8.0
   fp-ts-std: 0.15.1_sddbbwftoqt3d5g3p7ix53ouca
+  fuse.js: 6.6.2
   io-ts: 2.2.20_fp-ts@2.13.1
   io-ts-reporters: 2.0.1_fp-ts@2.13.1+io-ts@2.2.20
   io-ts-types: 0.5.19_3r4zs434vtthvwddf63cdxp364
+  lodash: 4.17.21
   mappersmith: 2.42.0-beta.1
   monocle-ts: 2.3.13_fp-ts@2.13.1
   newtype-ts: 0.3.5_y4ecnzjsatnzoei5elwf4wjeqa
@@ -58,6 +63,7 @@ dependencies:
   victory: 36.6.8_react@18.2.0
 
 devDependencies:
+  '@types/lodash': 4.14.192
   '@types/node': 16.18.23
   '@types/react': 18.0.32
   '@typescript-eslint/eslint-plugin': 5.57.1_jwd5v5vphzanfmajybkjq25ld4
@@ -598,6 +604,10 @@ packages:
 
   /@types/json5/0.0.29:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
+    dev: true
+
+  /@types/lodash/4.14.192:
+    resolution: {integrity: sha512-km+Vyn3BYm5ytMO13k9KTp27O75rbQ0NFw+U//g+PX7VZyjCioXaRFisqSIJRECljcTv73G3i6BpglNGHgUQ5A==}
     dev: true
 
   /@types/node/16.18.23:
@@ -1963,6 +1973,11 @@ packages:
   /functions-have-names/1.2.3:
     resolution: {integrity: sha512-xckBUXyTIqT97tq2x2AMb+g163b5JFysYk0x4qxNFwbfQkmNZoiRHb6sPzI9/QV33WeuvVYBUIiD4NzNIyqaRQ==}
     dev: true
+
+  /fuse.js/6.6.2:
+    resolution: {integrity: sha512-cJaJkxCCxC8qIIcPBF9yGxY0W/tVZS3uEISDxhYIdtk8OL93pe+6Zj7LjCqVV4dzbqcriOZ+kQ/NE4RXZHsIGA==}
+    engines: {node: '>=10'}
+    dev: false
 
   /get-func-name/2.0.0:
     resolution: {integrity: sha512-Hm0ixYtaSZ/V7C8FJrtZIuBBI+iSgL+1Aq82zSu8VQNB4S3Gk8e7Qs3VwBDJAhmRZcFqkl3tQu36g/Foh5I5ig==}

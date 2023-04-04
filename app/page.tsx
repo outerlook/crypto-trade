@@ -1,5 +1,7 @@
+import { RootPage } from '@domain/pages/root/RootPage';
+
 function HomePage() {
-    return <div className={'font-bold text-slate-500'}>Welcomme to Next.js!</div>
+  return <RootPage />;
 }
 
-export default HomePage
+export default HomePage;

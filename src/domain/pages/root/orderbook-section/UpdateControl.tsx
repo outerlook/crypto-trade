@@ -1,4 +1,4 @@
-import { useUpdateControlStateContext } from '@domain/pages/update-control-state';
+import { useUpdateControlStateContext } from './update-control-state';
 
 // control how often the orderbook updates on screen
 export function UpdateControl() {

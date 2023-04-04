@@ -1,3 +1,3 @@
 export function TrendChart() {
-  return null;
+  return <div>Chart here</div>;
 }

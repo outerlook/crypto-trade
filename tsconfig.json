@@ -29,6 +29,6 @@
       }
     ]
   },
-  "include": ["src", ".next/types/**/*.ts", "app", "test-config"],
+  "include": ["src", ".next/types/**/*.ts", "app", "test-config", "react/next"],
   "exclude": ["node_modules"]
 }
