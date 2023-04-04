@@ -1,8 +1,7 @@
-import { flow } from 'fp-ts/function';
+import {flow} from 'fp-ts/function';
 import * as t from 'io-ts';
-import { ORDERBOOK_API_URL } from '../../environment/public-environment';
-import { OrderbookRecord } from './orderbook-types';
-import { fetchAndDecode } from '../../utils/fetch-and-decode';
+import {OrderbookRecord} from './orderbook-types';
+import {fetchAndDecode} from '../../utils/fetch-and-decode';
 
 // Types ===================================================
 const FetchOrderbookInput = t.type({
@@ -35,5 +34,5 @@ const FetchOrderbookOutput = t.type({
 export const fetchOrderbook = flow(
   FetchOrderbookInput.encode,
   (query) => new URLSearchParams(query),
-  (params) => fetchAndDecode(`${ORDERBOOK_API_URL}/orderbook/v1/?${params}`)(FetchOrderbookOutput)
+  (params) => fetchAndDecode(`https://api.0x.org/orderbook/v1/orderbook/v1/?${params}`)(FetchOrderbookOutput)
 );

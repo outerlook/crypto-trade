@@ -1,7 +1,6 @@
 import * as t from 'io-ts';
-import { OrderbookRecord } from './orderbook-types';
-import { ORDERBOOK_WSS_URL } from '../../environment/public-environment';
-import { Observable } from 'rxjs';
+import {OrderbookRecord} from './orderbook-types';
+import {Observable} from 'rxjs';
 
 // Types ===================================================
 const BaseMessage = t.type({
@@ -31,7 +30,7 @@ const ResponseMessage = t.type({
 type ResponseMessage = t.TypeOf<typeof ResponseMessage>;
 
 // Service =================================================
-const ws = new WebSocket(ORDERBOOK_WSS_URL);
+const ws = new WebSocket('wss://api.0x.org/orderbook/v1');
 
 export const orderbookFromPair = (makerToken: string, takerToken: string) =>
   new Observable<ResponseMessage>((subscriber) => {
